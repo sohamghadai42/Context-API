@@ -1,9 +1,9 @@
 import React from "react";
-import '../index.css';
+import "../index.css";
 
-const Men = ()=>{
-    return <div className="men h-[100px] mt-3 w-[200px] bg-blue-500 flex items-center justify-center">
-        <h1 className="text-2xl font-bold">Men</h1>
+const Men = () =>{
+    return <div className="men bg-blue-500 p-7 w-xs text-center mt-3 rounded-xl">
+        <h1 className="text-xl text-white">Male</h1>
     </div>
 }
 export default Men;
